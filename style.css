@@ -52,8 +52,7 @@ body {
   color: var(--text-color);
 }
 .dropdown a > p {
-  rotate: 90deg;
-  margin-left: 0.4rem;
+  margin-left: 0.2rem;
 }
 .dropdown:hover .menu {
   opacity: 1;
