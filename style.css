@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
 *{
     padding: 0;
     margin: 0;
 }
 
 :root{
-    --background-color: rgb(56, 216, 96);
+    --background-color: #5edb12;
+    /* --background-color: rgb(56, 216, 96); */
     --text-gray-color: rgb(68, 68, 68);
     --text-dark-color: rgb(12, 12, 12);
 }
@@ -32,6 +35,7 @@ body{
 .navbar-nav li > a:hover{
     color: var(--text-dark-color);
     border-bottom: 1px solid var(--background-color);
+    
 }
 .dropdown{
     position: relative;
@@ -44,9 +48,12 @@ body{
     gap: 2px;
     color: var(--text-color);
 }
-.dropdown a > p{
-    rotate: 90deg;
+.dropdown a > p svg{
     margin-left: .4rem;
+    transition: .4s ease;
+}
+.dropdown a > p svg:hover{
+    rotate: 180deg;
 }
 .dropdown:hover .menu{
     opacity: 1;
@@ -99,9 +106,33 @@ body{
 
 /* ---------------------Home styling------------------ */
 
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-image: url('C:/Users/Admin/Downloads/fruitss.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .home img{
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.CTA button{
+    background: var(--background-color);
+    color: #fff;
+}
+.CTA .buttonFind{
+    background: none;
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
 }
