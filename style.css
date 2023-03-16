@@ -6,7 +6,7 @@
 }
 
 :root {
-  --background-color: #5edb12;
+  --background-color: #5bbb1f;
   // --background-color: rgb(56, 216, 96);
   --text-gray-color: rgb(68, 68, 68);
   --text-dark-color: rgb(12, 12, 12);
@@ -25,6 +25,7 @@ body {
 }
 #logo > span {
   color: var(--background-color);
+  font-size: 26px;
 }
 .navbar-nav li {
   display: flex;
