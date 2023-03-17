@@ -139,6 +139,11 @@ body {
   background: var(--background-color);
   color: #fff;
 }
+
+.CTA button:hover {
+  color: #fff;
+  border: 2px solid var(--background-color);
+}
 .CTA .buttonFind {
   background: none;
   border: 2px solid var(--background-color);
