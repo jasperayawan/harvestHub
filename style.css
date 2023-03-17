@@ -129,7 +129,11 @@ body {
 }
 .title1 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 50px;
+}
+
+.title2 {
+  font-size: 30px;
 }
 .CTA button {
   background: var(--background-color);
